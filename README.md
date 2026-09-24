@@ -20,7 +20,7 @@ Neste tema foi elaborado um sistema para registrar locais e equipamentos que uti
 ![formulario](./delete.png)
 ``` get ```
 ![formulario](./get.png)
-``` get/1 ```
+``` get/*id*/ ```
 ![formulario](./get1.png)
 ``` post ```
 ![formulario](./post.png)
