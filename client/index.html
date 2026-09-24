@@ -8,12 +8,14 @@
 <body>
     <header><h1>Cadastro de Equipamentos</h1></header>
     <main>
-        <form action="http://localhost:3000/equipamentos" method="post">
+        <form action="http://localhost:3000/equipamentos" method="post" target="frameEnvio">
             <input type="text" name="equipamento" placeholder="Nome do Equipamento" required>
             <input type="text" name="local" placeholder="Local de Instalação" required>
             <input type="text" name="consumo" step="0.01" placeholder="Consumo (kWh)" required>
             <input type="submit" value="Enviar">
         </form>
+        <p>Equipamento cadastrado com sucesso!</p>
+        <iframe name="frameEnvio" style="display: none;"></iframe>
     </main>
 </body>
 </html>
