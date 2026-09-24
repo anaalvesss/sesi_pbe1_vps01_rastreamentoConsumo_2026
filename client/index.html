@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VPF 01</title>
+    <title>Rastreamento de Consumo</title>
 </head>
 <body>
-    <form action="Cadastrar equipamento ou local">
-        
-    </form>
+    <header><h1>Cadastro de Equipamentos</h1></header>
+    <main>
+        <form action="http://localhost:3000/equipamentos" method="post">
+            <input type="text" name="equipamento" placeholder="Nome do Equipamento" required>
+            <input type="text" name="local" placeholder="Local de Instalação" required>
+            <input type="text" name="consumo" step="0.01" placeholder="Consumo (kWh)" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
 </body>
 </html>

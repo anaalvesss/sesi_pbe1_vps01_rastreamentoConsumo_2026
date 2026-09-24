@@ -1,0 +1,26 @@
+{
+  "name": "sesi_pbe1_vps01_rastreamentoconsumo_2026",
+  "version": "1.0.0",
+  "description": "\"# sesi_pbe1_vps01_rastreamentoConsumo_2026\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaalvesss/sesi_pbe1_vps01_rastreamentoConsumo_2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anaalvesss/sesi_pbe1_vps01_rastreamentoConsumo_2026/issues"
+  },
+  "homepage": "https://github.com/anaalvesss/sesi_pbe1_vps01_rastreamentoConsumo_2026#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

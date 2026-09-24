@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "local": "Sala 1",
+        "equipamento": "Projetor Multimídia",
+        "consumo_kwh": 35.2,
+        "mes_referencia": "2026-09",
+        "status": "Consumo normal"
+    },
+    {
+        "id": 2,
+        "local": "Sala TI",
+        "equipamento": "Servidor Dell R750",
+        "consumo_kwh": 520.8,
+        "mes_referencia": "2026-09",
+        "status": "Consumo elevado"
+    },
+    {
+        "id": 3,
+        "local": "Cozinha",
+        "equipamento": "Geladeira Industrial",
+        "consumo_kwh": 210.0,
+        "mes_referencia": "2026-09",
+        "status": "Consumo mediano"
+    },
+    {
+        "id": 4,
+        "local": "Laboratório 01",
+        "equipamento": "Impressora 3D",
+        "consumo_kwh": 75.6,
+        "mes_referencia": "2026-09",
+        "status": "Consumo normal"
+    },
+    {
+        "id": 5,
+        "local": "Pátio",
+        "equipamento": "Equipamento de Som",
+        "consumo_kwh": 115.3,
+        "mes_referencia": "2026-09",
+        "status": "Consumo mediano"
+    }
+]
