@@ -17,15 +17,15 @@ Neste tema foi elaborado um sistema para registrar locais e equipamentos que uti
 - PUT = Atualiza dados no item escolhido
 ## Prints
 ``` delete ```
-![formulario](./delete.png)
+![formulario](./prints/delete.png)
 ``` get ```
-![formulario](./get.png)
+![formulario](./prints/get.png)
 ``` get/*id*/ ```
-![formulario](./get1.png)
+![formulario](./prints/get1.png)
 ``` post ```
-![formulario](./post.png)
+![formulario](./prints/post.png)
 ``` put ```
-![formulario](./put.png)
+![formulario](./prints/put.png)
 ## Formulário
 ``` Formulário HTML ```
-![formulario](./formulario.png)
+![formulario](./prints/formulario.png)
